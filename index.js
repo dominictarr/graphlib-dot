@@ -1,6 +1,6 @@
 var parse = require("./lib/parse"),
     write = require("./lib/write"),
-    version = require("./lib/version");
+    version =
 
 module.exports = {
   // DOT graphs
@@ -15,9 +15,6 @@ module.exports = {
   // Writing
   write: write,
   encode: write,
-
-  // Version
-  version: version,
 
   // For levelup encoding
   type: "dot",
